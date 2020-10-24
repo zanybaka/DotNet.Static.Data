@@ -55,118 +55,118 @@
   ],
   "targetFrameworks": [
     {
-        "name": ".NET Core",
-        "baseSymbols": [ "NETCOREAPP" ],
-        "monikers": [
-            "netcoreapp1.0",
-            "netcoreapp1.1",
-            "netcoreapp2.0",
-            "netcoreapp2.1",
-            "netcoreapp2.2",
-            "netcoreapp3.0",
-            "netcoreapp3.1"
-        ]
+      "name": ".NET Core",
+      "baseSymbols": ["NETCOREAPP"],
+      "monikers": [
+        "netcoreapp1.0",
+        "netcoreapp1.1",
+        "netcoreapp2.0",
+        "netcoreapp2.1",
+        "netcoreapp2.2",
+        "netcoreapp3.0",
+        "netcoreapp3.1"
+      ]
     },
     {
-        "name": ".NET 5",
-        "baseSymbols": [ "NET5_0" ],
-        "monikers": [
-            "net5.0",
-            "net5.0-android",
-            "net5.0-ios",
-            "net5.0-macos",
-            "net5.0-tvos",
-            "net5.0-watchos",
-            "net5.0-windows"
-        ]
+      "name": ".NET 5",
+      "baseSymbols": ["NET5_0"],
+      "monikers": [
+        "net5.0",
+        "net5.0-android",
+        "net5.0-ios",
+        "net5.0-macos",
+        "net5.0-tvos",
+        "net5.0-watchos",
+        "net5.0-windows"
+      ]
     },
     {
-        "name": ".NET Standard",
-        "baseSymbols": [ "NETSTANDARD" ],
-        "monikers": [
-            "netstandard1.0",
-            "netstandard1.1",
-            "netstandard1.2",
-            "netstandard1.3",
-            "netstandard1.4",
-            "netstandard1.5",
-            "netstandard1.6",
-            "netstandard2.0",
-            "netstandard2.1"
-        ]
+      "name": ".NET Standard",
+      "baseSymbols": ["NETSTANDARD"],
+      "monikers": [
+        "netstandard1.0",
+        "netstandard1.1",
+        "netstandard1.2",
+        "netstandard1.3",
+        "netstandard1.4",
+        "netstandard1.5",
+        "netstandard1.6",
+        "netstandard2.0",
+        "netstandard2.1"
+      ]
     },
     {
-        "name": ".NET Framework",
-        "baseSymbols": [ "NETFRAMEWORK" ],
-        "monikers": [
-            "net11",
-            "net20",
-            "net35",
-            "net40",
-            "net403",
-            "net45",
-            "net451",
-            "net452",
-            "net46",
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-        ]
+      "name": ".NET Framework",
+      "baseSymbols": ["NETFRAMEWORK"],
+      "monikers": [
+        "net11",
+        "net20",
+        "net35",
+        "net40",
+        "net403",
+        "net45",
+        "net451",
+        "net452",
+        "net46",
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ]
     },
     {
-        "name": "Windows Store",
-        "baseSymbols": [ "NETCORE" ],
-        "monikers": [
-            "netcore",
-            "netcore45",
-            "netcore451"
-        ]
+      "name": "Windows Store",
+      "baseSymbols": ["NETCORE"],
+      "monikers": [
+        "netcore",
+        "netcore45",
+        "netcore451"
+      ]
     },
     {
-        "name": ".NET Micro Framework",
-        "baseSymbols": [ "NETMICROFRAMEWORK" ],
-        "monikers": [
-            "netmf"
-        ]
+      "name": ".NET Micro Framework",
+      "baseSymbols": ["NETMICROFRAMEWORK"],
+      "monikers": [
+        "netmf"
+      ]
     },
     {
-        "name": "Silverlight",
-        "baseSymbols": [ "SILVERLIGHT" ],
-        "monikers": [
-            "sl4",
-            "sl5"
-        ]
+      "name": "Silverlight",
+      "baseSymbols": ["SILVERLIGHT"],
+      "monikers": [
+        "sl4",
+        "sl5"
+      ]
     },
     {
-        "name": "Windows Phone",
-        "baseSymbols": [ "WINDOWSPHONE" ],
-        "monikers": [
-            "wp",
-            "wp7",
-            "wp75",
-            "wp8",
-            "wp81",
-            "wpa81"
-        ]
+      "name": "Windows Phone",
+      "baseSymbols": ["WINDOWSPHONE"],
+      "monikers": [
+        "wp",
+        "wp7",
+        "wp75",
+        "wp8",
+        "wp81",
+        "wpa81"
+      ]
     },
     {
-        "name": "Universal Windows Platform",
-        "baseSymbols": [ "UNIVERSALWINDOWSPLATFORM" ],
-        "monikers": [
-            "uap",
-            "uap10.0"
-        ]
+      "name": "Universal Windows Platform",
+      "baseSymbols": ["UNIVERSALWINDOWSPLATFORM"],
+      "monikers": [
+        "uap",
+        "uap10.0"
+      ]
     },
     {
-        "name": "Silverlight",
-        "baseSymbols": [ "SILVERLIGHT" ],
-        "monikers": [
-            "sl4",
-            "sl5"
-        ]
+      "name": "Silverlight",
+      "baseSymbols": ["SILVERLIGHT"],
+      "monikers": [
+        "sl4",
+        "sl5"
+      ]
     }
   ]
 }

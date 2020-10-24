@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <!-- Package specific settings -->
+  <PropertyGroup>
+    <PackAsTool>false</PackAsTool>
+    <PackageId>DotNetStaticData</PackageId>
+    <Title>DotNet.Static.Data</Title>
+    <ToolCommandName>DotNet.Static.Data</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>DotNet.Static.Data contributors</Authors>
+    <PackageDescription>Contains such data as target framework monikers (TFM) and symbols</PackageDescription>
+    <PackageTags>data framework dotnet static target symbol moniker</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/zanybaka/DotNet.Static.Data</RepositoryUrl>
+    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="LICENSE" Pack="True" Visible="False" PackagePath="">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="target-frameworks.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="target-frameworks.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+  </ItemGroup>
+
+</Project>
