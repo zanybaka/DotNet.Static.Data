@@ -3,6 +3,10 @@ DotNet.Static.Data
 
 Contains such data as target framework monikers (TFM) and symbols
 
+[![NuGet Badge](https://img.shields.io/nuget/v/DotNetStaticData.svg)](https://www.nuget.org/packages/DotNetStaticData/)
+
+[![Build Stats](https://buildstats.info/github/chart/ZanyBaka/DotNet.Static.Data?showStats=false)]()
+
 Data
 ---
 
