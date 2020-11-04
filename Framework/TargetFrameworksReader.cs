@@ -32,14 +32,28 @@ namespace DotNet.Static.Data
             }
         }
 
+        public TargetFrameworks ReadFromJson(string json)
+        {
+            return DeserializeJson(json);
+        }
+
         private static async Task<TargetFrameworks> ReadAndDeserializeFromStreamAsync(Stream stream)
         {
             using (StreamReader reader = new StreamReader(stream))
             {
                 string text = await reader.ReadToEndAsync();
-                return JsonSerializer.Deserialize<TargetFrameworks>(
-                    text, new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
+                return DeserializeJson(text);
             }
+        }
+
+        private static TargetFrameworks DeserializeJson(string json)
+        {
+            return JsonSerializer.Deserialize<TargetFrameworks>(
+                json
+                , new JsonSerializerOptions
+                {
+                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                });
         }
     }
 }

@@ -18,9 +18,14 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/zanybaka/DotNet.Static.Data</RepositoryUrl>
     <PackageReleaseNotes>Initial version</PackageReleaseNotes>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="nupkg\**" />
+    <EmbeddedResource Remove="nupkg\**" />
+    <None Remove="nupkg\**" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="LICENSE" Pack="True" Visible="False" PackagePath="">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -28,6 +33,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove=".gitattributes" />
+    <None Remove=".gitignore" />
+    <None Remove="build_package.cmd" />
+    <None Remove="build_package.nuspec" />
+    <None Remove="links.txt" />
     <None Remove="target-frameworks.json" />
   </ItemGroup>
 
